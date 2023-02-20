@@ -1,0 +1,44 @@
+/* Se definen los estilos para las imagenes del slide */
+.slider img {
+    width: 15rem; /* Establece el ancho de las imágenes */
+    height: 15rem; /* Establece la altura de las imágenes */
+    margin: 0 10px; /* Establece el margen en los lados izquierdo y derecho de las imágenes */
+    bottom: 20px;  /* Establece la distancia entre la parte inferior de las imágenes y el contenedor */
+    
+  }
+  /* Establece los estilos del slide*/
+  .slider {
+    display: flex; /* Hace que el contenedor sea un contenedor flexible */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 50px 50px 50px 50px; /* Establece el margen en todos los lados del contenedor */
+    padding-top: 50px; /* Establece el relleno en la parte superior del contenedor */
+       
+  }
+/* Establece estilos a las figuras */
+  figure {
+    text-align: center; /* Centra el contenido de las figuras */
+    margin: 0; /* Elimina el margen de todos los lados de las figuras */
+    padding: 0; /* Elimina el relleno en todos los lados de las figuras */
+  }
+/* Establece los estilos de los subtitulos de las figuras*/
+  figcaption {
+    font-size: 1.2rem; /* Establece el tamaño de fuente de los subtítulos */
+    margin-top: 0.5rem; /* Establece el margen en la parte superior de los subtítulos */
+   font-family: 'Roboto', sans-serif; /* Establece la familia de fuentes de los subtítulos */
+   font-weight: bold; /* Sets the font weight of the captions */
+   color: #3f51b5; /* Establece el peso de la fuente de los subtítulos */
+   text-transform: uppercase; /* Establece que el texto esté en mayúsculas */
+   letter-spacing: 0.1rem; /* Establece el espaciado entre letras de los subtítulos */
+   line-height: 1.5; /* Establece la altura de línea de los subtítulos */
+   
+  }
+
+  
+  
+  
+  
+  
+  
+  
+ 

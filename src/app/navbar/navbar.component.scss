@@ -1,0 +1,62 @@
+/* Estilos para la barra de navegación */
+.nav-bar {
+    position:fixed;  /* Establece la posición como fija */
+    top: 0; /* Establece la posición vertical en la parte superior */
+    height: 10%; /* Establece la altura del elemento */
+    text-align: center;  /* Establece la alineación del texto en el centro */
+}
+/* Estilos para el encabezado */
+.header{
+    display: flex; /* Establece el elemento como flexible */
+    justify-content: flex-end; 
+    align-items: center; /* Establece la alineación de los elementos secundarios hacia el final del elemento padre */
+    height: 85px; /* Establece la altura del elemento */
+    padding: 5px 10%; /* Establece el espacio de relleno en los cuatro lados */
+    
+}
+/* Estilos para los elementos de la lista de navegación */
+.header .nav-links{
+    list-style: none; /* Elimina los puntos de la lista */
+}
+/* Estilos para los elementos individuales de la lista de navegación */
+.header .nav-links li{
+    display: inline-block; /* Establece los elementos como en línea */
+    padding: 0 20px; /* Establece el espacio de relleno en los lados izquierdo y derecho */
+    padding-right: 200px; /* Establece un espacio adicional en el lado derecho */  
+}
+/* Estilos para los elementos de la lista de navegación cuando se pasa el cursor */
+.header .nav-links li:hover{
+    transform: scale(1.1); /* Aplica una transformación de escala al elemento */
+}
+
+/* Estilos para los enlaces de la lista de navegación */
+.header .nav-links a{
+    font-size: 200; /* Establece el tamaño de la fuente */
+    color: #eceff1; /* Establece el color del texto */
+    text-decoration: none;  /* Elimina el subrayado del enlace */
+}
+/* Estilos para los enlaces de la lista de navegación cuando se pasa el cursor */
+.header .nav-links li a:hover{
+    color: #ffbc0e; /* Cambia el color del texto */
+}
+/* Estilos para el botón de contacto */
+.header .btn button{
+    margin-left: 20px; /* Establece el margen izquierdo */
+    font-weight: 700; /* Establece el grosor de la fuente */
+    color: #1b3039; /* Establece el color del texto */
+    padding: 9px 25px; /* Establece el espacio de relleno en los cuatro lados */
+    background: #eceff1; /* Establece el color de fondo */
+    border: none; /* Elimina el borde */
+    border-radius: 50px; /* Establece el radio de borde */
+    cursor: pointer; /* Establece el cursor al pasar el mouse */
+    transition: all 0.3s ease 0s; /* Agrega una transición suave a todos los cambios de estilo */
+}
+/* Estilos para el botón de contacto cuando se pasa el cursor */
+.header .btn button:hover{
+    background-color: #e2f1f8; /* Cambia el color de fondo */
+    color: #ffbc0e; /* Cambia el color del texto */
+    transform: scale(1.1); /* Amplia en un 10% cuando el cusor se posicione sobre el*/
+}
+
+
+  

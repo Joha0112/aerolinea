@@ -1,0 +1,61 @@
+/* Define el estilo de la sección del footer */
+.footer {
+  position: fixed; /* Establece la posición de la sección como fija */
+  bottom: 0; /* Establece la posición de la sección en la parte inferior */
+  width: 100%; /* Establece el ancho de la sección al 100% del ancho de la ventana del navegador */
+  height: 100px; /* Establece la altura de la sección en 100 píxeles */
+  display: flex; /* Establece el tipo de caja de la sección como un contenedor flexible */
+  align-items: center; /* Establece la alineación vertical del contenido en el centro */
+  justify-content: center; /* Establece la alineación horizontal del contenido en el centro */
+}
+/* Define el estilo de la lista de redes sociales */
+.social-media {
+  display: flex; /* Establece el tipo de caja de la lista como un contenedor flexible */
+  align-items: center; /* Establece la alineación vertical del contenido en el centro */
+  justify-content: center; /* Establece la alineación horizontal del contenido en el centro */
+  list-style: none; /* Elimina los marcadores de lista por defecto */
+  margin: 0; /* Elimina el margen externo por defecto */
+  padding: 0; /* Elimina el relleno interno por defecto */
+}
+/* Establece los estilos para pantallas con un ancho máximo de 768px */
+@media only screen and (max-width: 768px) {
+  .footer {
+    height: 150px; /* Establece la altura de la sección en 150 píxeles */
+  }
+
+  .social-media {
+    flex-direction: column;  /* Establece la dirección de la lista como columna para dispositivos móviles */
+    
+  }
+
+  .social-media li {
+    margin: 10px 0; /* Establece un margen superior e inferior de 10 píxeles para cada elemento de la lista */
+  
+  }
+}
+
+
+
+
+
+
+
+.social-media li {
+  margin: 0 10px;
+}
+
+.social-media li:first-child {
+  font-weight: bold;
+}
+
+.social-media i {
+  font-size: 24px;
+}
+
+.social-media i:hover {
+  color: #ffbc0e;
+}
+
+  
+  
+ 
